@@ -59,6 +59,8 @@ checkpoint/
 └── defect-patch-64.pt     # Local defect patch model
 ```
 
+**Note**: If you want to use your own dataset, you can train custom models based on the [OpenAI guided-diffusion](https://github.com/openai/guided-diffusion) library and adjust the corresponding configuration parameters accordingly.
+
 ## Quick start
 
 1) Verify checkpoints are in checkpoint/.
