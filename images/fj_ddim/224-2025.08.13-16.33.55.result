@@ -1,0 +1,77 @@
+{"algorithm": "fj_ddim"}
+{"model_path": "./checkpoint/global-256.pt"}
+{"crop_model_path": "./checkpoint/defect-patch-64.pt"}
+{"n_jobs": 1}
+{"print_estimated_vars": true}
+{"inpa_inj_sched_prev_cumnoise": false}
+{"outdir": "./images/"}
+{"n_samples": 2}
+{"n_iter": 1}
+{"debug": false}
+{"use_git": false}
+{"seed": 2}
+{"max_iter": 1}
+{"cuda": 0}
+{"improve": {"update_mask": true, "multiscale_loss": true, "multistage": true, "use_loss_weight": false, "cropt_update_end_step": 150, "cropt_change_step": 40, "loss_weight_update_end": 35, "mask_save": false}}
+{"ddim": {"ddim_sigma": 0.0, "schedule_params": {"num_inference_steps": 250, "ddpm_num_steps": 250, "schedule_type": "linear", "jump_length": 10, "jump_n_sample": 2, "use_timetravel": true, "time_travel_filter_type": "none"}}}
+{"gd_mask_radius": 9}
+{"crop_class_json_path": "./data/pcb.json"}
+{"optimize_xt": {"optimize_xt": true, "num_iteration_optimize_xt": 4, "lr_xt": 0.02, "lr_xt_decay": 1.012, "use_smart_lr_xt_decay": true, "use_adaptive_lr_xt": true, "coef_xt_reg": 0.0001, "coef_xt_reg_decay": 1.01, "mid_interval_num": 1, "optimize_before_time_travel": true, "sublist_length": 50, "classifier_loss": true}}
+{"g_scha": {"start": 2, "end": 2, "stop": 0}}
+{"repaint": {"schedule_jump_params": {"t_T": 250, "n_sample": 1, "jump_length": 10, "jump_n_sample": 2}, "inpa_inj_sched_prev": true, "inpa_inj_sched_prev_cumnoise": false}}
+{"image_size": 256}
+{"class_cond": false}
+{"use_fp16": false}
+{"channel_mult": "1, 1, 2, 3, 4, 4"}
+{"attention_resolutions": "16, 8"}
+{"diffusion_steps": 1000}
+{"timestep_respacing": "250"}
+{"learn_sigma": true}
+{"noise_schedule": "linear"}
+{"num_channels": 128}
+{"num_head_channels": 32}
+{"num_heads": 4}
+{"num_res_blocks": 2}
+{"resblock_updown": true}
+{"use_scale_shift_norm": true}
+{"classifier_scale": 4.0}
+{"lr_kernel_n_std": 2}
+{"num_samples": 100}
+{"show_progress": true}
+{"use_kl": false}
+{"predict_xstart": false}
+{"rescale_timesteps": false}
+{"rescale_learned_sigmas": false}
+{"num_heads_upsample": -1}
+{"dropout": 0.0}
+{"use_checkpoint": false}
+{"use_new_attention_order": false}
+{"clip_denoised": true}
+{"use_ddim": false}
+{"respace_interpolate": false}
+{"schedule_sampler": "uniform"}
+{"classifier_path": null}
+{"crop": {"image_size": 64, "num_channels": 64, "num_res_blocks": 2, "channel_mult": "1, 2, 3, 4", "learn_sigma": true, "class_cond": true, "use_checkpoint": false, "attention_resolutions": "16, 8", "num_heads": 4, "num_head_channels": 16, "num_heads_upsample": -1, "use_scale_shift_norm": true, "dropout": 0.0, "resblock_updown": true, "use_fp16": false, "use_new_attention_order": false}}
+{"classifier_model_path": null}
+{"classifier_noised_model_path": null}
+{"classifier_image_size": 64}
+{"classifier_use_fp16": false}
+{"classifier_channel_mult": "1, 2, 3, 4"}
+{"classifier_width": 64}
+{"classifier_depth": 2}
+{"classifier_attention_resolutions": "16, 8"}
+{"classifier_num_heads": 2}
+{"classifier_num_head_channels": 32}
+{"classifier_use_scale_shift_norm": true}
+{"classifier_resblock_updown": true}
+{"classifier_pool": "attention"}
+{"classifier_out_channels": 6}
+{"path_record": "./images/fj_ddim/224-2025.08.13-16.33.55"}
+{"path_log": "./images/fj_ddim/224-2025.08.13-16.33.55"}
+{"path_gird": "./images/fj_ddim/gird"}
+{"path_crop": "./images/fj_ddim/crop"}
+{"path_sample": "./images/fj_ddim/samples"}
+{"Final loss\uff1a 0001_opencircuit_x35y92r9": 8.829408254417913}
+
+$END$
+
